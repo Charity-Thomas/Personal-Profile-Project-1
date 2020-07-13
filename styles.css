@@ -72,10 +72,13 @@ header .profile-image {
   height: 180px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all .6s;
+  transition-timing-function: ease-in-out;
 }
 header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
+  border: 6px solid white;
+  box-shadow: -3px -3px 15px 3px;
 }
 
 .tag {
